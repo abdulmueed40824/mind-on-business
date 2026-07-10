@@ -1,0 +1,14 @@
+/* Webura agent — design tokens (safe to edit) */
+:root {
+  --color-primary: #C6FF00;
+  --color-accent: #FF2D6F;
+  --radius-lg: 8px;
+  --shadow-card: 0 10px 30px rgb(0 0 0 / 0.08);
+  --space-section-y: 4rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --shadow-card: 0 10px 40px rgb(0 0 0 / 0.45);
+  }
+}

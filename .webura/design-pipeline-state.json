@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 1,
+  "stageMarkers": [
+    "post_stream"
+  ],
+  "designHeavyTurnsCompleted": 0,
+  "totalOrchestratedTurns": 13
+}
