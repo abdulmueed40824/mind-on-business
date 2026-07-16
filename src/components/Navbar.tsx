@@ -41,7 +41,7 @@ export const Navbar: React.FC = () => {
             
             <a href="#home" className="h-[40px] flex items-center group">
               <span className="text-3xl font-display text-primary tracking-tighter group-hover:text-secondary transition-colors">
-                M.O.B
+                Mind Onn Business
               </span>
             </a>
 
@@ -83,7 +83,7 @@ export const Navbar: React.FC = () => {
               className="fixed top-0 left-0 bottom-0 w-[80%] max-w-sm bg-[#0A0A0A] z-[2001] p-10 flex flex-col"
             >
               <div className="flex items-center justify-between mb-16">
-                <span className="text-4xl font-display text-primary">M.O.B</span>
+                <span className="text-4xl font-display text-primary">Mind Onn Business</span>
                 <button onClick={() => setIsOpen(false)}>
                   <X className="w-8 h-8 text-white" />
                 </button>

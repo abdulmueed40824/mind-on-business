@@ -42,7 +42,7 @@ export const Differentiators: React.FC = () => {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
             >
-              <span className="text-secondary font-bold tracking-[0.4em] uppercase text-sm block mb-6">M.O.B Edge</span>
+              <span className="text-secondary font-bold tracking-[0.4em] uppercase text-sm block mb-6">Mind Onn Business Edge</span>
               <h2 className="text-5xl sm:text-6xl md:text-8xl font-display mb-10 leading-[1] md:leading-[0.9]">MORE THAN <span className="text-secondary">MERCH</span> — IT'S A <span className="text-white/20">MINDSET.</span></h2>
               <p className="text-white/60 text-lg leading-relaxed mb-12">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae lacus sed lorem gravida facilisis. Donec posuere, lorem at commodo feugiat, sapien sem pretium nulla, vitae fermentum justo arcu sed neque.

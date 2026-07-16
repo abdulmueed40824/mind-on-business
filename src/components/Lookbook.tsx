@@ -50,7 +50,7 @@ export const Lookbook: React.FC = () => {
           <span className="text-primary font-bold tracking-[0.4em] uppercase text-sm block mb-6 text-center lg:text-left">Gallery</span>
           <h2 className="text-5xl md:text-8xl font-display leading-none mb-8 text-center lg:text-left">THE <br className="hidden md:block" /> <span className="text-white/20">LOOKBOOK</span></h2>
           <p className="text-white/40 text-lg max-w-sm mx-auto lg:mx-0 text-center lg:text-left">
-            Capturing the essence of the urban athlete. Every shot is a testament to the lifestyle we represent.
+            Capturing the essence of the urban lifestyle. Every shot is a testament to the lifestyle we represent.
           </p>
         </div>
         <div className="flex flex-col gap-12">
@@ -80,7 +80,7 @@ export const Lookbook: React.FC = () => {
             <span className="text-primary font-bold tracking-[0.4em] uppercase text-sm block mb-6">Gallery</span>
             <h2 className="text-8xl md:text-[10rem] font-display leading-[0.8] mb-8">THE <br /> <span className="text-white/20">LOOKBOOK</span></h2>
             <p className="text-white/40 text-lg max-w-sm">
-              Capturing the essence of the urban athlete. Every shot is a testament to the lifestyle we represent.
+              Capturing the essence of the urban lifestyle. Every shot is a testament to the lifestyle we represent.
             </p>
           </div>
 

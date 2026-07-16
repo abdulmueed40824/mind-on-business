@@ -98,7 +98,7 @@ export const Ethos: React.FC = () => {
           >
             The Process
           </motion.span>
-          <h2 className="text-5xl md:text-9xl font-display leading-none">THE M.O.B <span className="text-white/20">MINDSET</span></h2>
+          <h2 className="text-5xl md:text-9xl font-display leading-none">THE Mind Onn Business <span className="text-white/20">MINDSET</span></h2>
         </div>
 
         {/* Steps Grid */}

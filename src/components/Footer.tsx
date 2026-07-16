@@ -25,7 +25,7 @@ export const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-16 mb-32">
           {/* Brand Info */}
           <div className="lg:col-span-2">
-            <span className="text-4xl font-display text-primary block mb-8">M.O.B</span>
+            <span className="text-4xl font-display text-primary block mb-8">Mind Onn Business</span>
             <p className="text-white/40 text-lg leading-relaxed max-w-sm mb-10">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae lacus sed lorem gravida facilisis. Donec posuere, lorem at commodo feugiat, sapien sem pretium nulla.
             </p>
@@ -67,7 +67,7 @@ export const Footer: React.FC = () => {
         {/* Bottom Bar */}
         <div className="pt-12 border-t border-white/10 flex flex-col md:flex-row items-center justify-between gap-8">
           <div className="flex items-center gap-2 h-[44px]">
-            <span className="text-3xl font-display text-primary">M.O.B</span>
+            <span className="text-3xl font-display text-primary">Mind Onn Business</span>
             <span className="text-[10px] text-white/20 uppercase tracking-[0.2em] ml-2">© 2024 All Rights Reserved</span>
           </div>
           

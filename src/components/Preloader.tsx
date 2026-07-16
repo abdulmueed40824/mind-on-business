@@ -27,7 +27,7 @@ export const Preloader: React.FC = () => {
           >
             <div className="absolute inset-0 bg-primary/20 blur-[100px] rounded-full" />
             <h1 className="text-6xl sm:text-8xl md:text-[12rem] font-display text-primary relative z-10 select-none leading-none">
-              M.O.B
+              Mind Onn Business
             </h1>
           </motion.div>
           
