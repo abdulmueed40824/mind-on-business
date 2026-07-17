@@ -9,22 +9,22 @@ const steps = [
   {
     number: "01",
     title: "The Vision",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    description: "It started with an idea — build a brand that speaks for the ones who move with purpose and never stop chasing it, no matter the odds."
   },
   {
     number: "02",
     title: "The Grind",
-    description: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    description: "Late nights, early mornings, and countless hours behind the scenes. The grind is where the brand was really built, piece by piece."
   },
   {
     number: "03",
     title: "The Execution",
-    description: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+    description: "From concept to fabric to final stitch, every drop is executed with precision. No shortcuts, no compromises — just heavyweight quality."
   },
   {
     number: "04",
     title: "The Legacy",
-    description: "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    description: "Mind Onn Business isn't a trend, it's a legacy in the making. Every piece is designed to outlast the moment and outlast the season."
   }
 ];
 

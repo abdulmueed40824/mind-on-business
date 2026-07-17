@@ -6,27 +6,27 @@ const pillars = [
   {
     icon: ShieldCheck,
     title: "Heavyweight Quality",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    desc: "Every garment is cut from heavyweight fabric built to hold its shape, wash after wash, season after season."
   },
   {
     icon: Zap,
     title: "Vibrant Accents",
-    desc: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    desc: "Bold colorways and sharp accent details set every piece apart from everything else on the rack."
   },
   {
     icon: Layers,
     title: "Layered Mindset",
-    desc: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+    desc: "Designed to layer effortlessly, so you can build a fit that matches the mindset — always ready to move."
   },
   {
     icon: Cpu,
     title: "NFC Verified",
-    desc: "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    desc: "Every piece ships with embedded NFC verification, so you can confirm authenticity with a single tap."
   },
   {
     icon: Globe,
     title: "Minneapolis Roots",
-    desc: "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos."
+    desc: "Designed and built in Minneapolis, carrying the grit and culture of the city in every stitch."
   }
 ];
 
@@ -45,7 +45,7 @@ export const Differentiators: React.FC = () => {
               <span className="text-secondary font-bold tracking-[0.4em] uppercase text-sm block mb-6">Mind Onn Business Edge</span>
               <h2 className="text-5xl sm:text-6xl md:text-8xl font-display mb-10 leading-[1] md:leading-[0.9]">MORE THAN <span className="text-secondary">MERCH</span> — IT'S A <span className="text-white/20">MINDSET.</span></h2>
               <p className="text-white/60 text-lg leading-relaxed mb-12">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae lacus sed lorem gravida facilisis. Donec posuere, lorem at commodo feugiat, sapien sem pretium nulla, vitae fermentum justo arcu sed neque.
+                Mind Onn Business is more than apparel — it's a statement. Every drop blends heavyweight quality with street-level authenticity, built for the ones who lead with purpose and never lose focus on the mission.
               </p>
               
               <div className="w-full h-[1px] bg-white/10 mb-12" />

@@ -5,19 +5,19 @@ import { ChevronDown } from 'lucide-react';
 const faqs = [
   {
     question: "How do the drops work?",
-    answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    answer: "We release limited-quantity drops throughout the year, announced first to our email list and Instagram followers. Once a drop sells out, it's gone for good — no restocks, no reprints."
   },
   {
     question: "What is your sizing like?",
-    answer: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    answer: "Our pieces run true to size with a relaxed, heavyweight fit. Check the size chart on each product page, and if you're between sizes, we recommend sizing up for that oversized streetwear look."
   },
   {
     question: "How long is shipping?",
-    answer: "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet."
+    answer: "Domestic orders ship within 3-5 business days and typically arrive within 5-7 business days. International shipping times vary by destination, and tracking is provided on every order."
   },
   {
     question: "Quality Guarantee?",
-    answer: "Adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam."
+    answer: "Every piece is made with heavyweight, premium materials and checked for quality before it ships. If something isn't right, reach out within 14 days and we'll make it right."
   }
 ];
 
@@ -32,7 +32,7 @@ export const FAQ: React.FC = () => {
             <span className="text-primary font-bold tracking-[0.4em] uppercase text-sm block mb-4">Support</span>
             <h2 className="text-5xl md:text-8xl font-display leading-none mb-10">FREQUENTLY <br className="hidden md:block" /> <span className="text-white/20">ASKED</span></h2>
             <p className="text-white/40 text-lg leading-relaxed max-w-sm mb-12">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae lacus sed lorem gravida facilisis.
+              Got questions? We've got answers. Here's everything you need to know before you cop your next piece.
             </p>
             
             <div className="relative w-full aspect-video rounded-lg overflow-hidden border border-white/5 grayscale">

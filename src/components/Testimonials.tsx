@@ -3,27 +3,27 @@ import { motion } from 'framer-motion';
 
 const testimonials = [
   {
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae lacus sed lorem gravida facilisis. Donec posuere, lorem at commodo feugiat.",
+    text: "The fit is unmatched and the quality speaks for itself. Every piece feels like it was made to last, not just to look good for a season.",
     author: "Alex R.",
     role: "Digital Creator"
   },
   {
-    text: "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
+    text: "M.O.B gets it — this isn't just streetwear, it's a mindset you can wear. I get compliments every single time I step out in it.",
     author: "Jordan T.",
     role: "Entrepreneur"
   },
   {
-    text: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+    text: "Heavyweight, comfortable, and built to move with me. This is the only brand I trust for both the gym and the street.",
     author: "Marcus K.",
     role: "Athlete"
   },
   {
-    text: "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.",
+    text: "Every drop sells out for a reason. The NFC verification gives me peace of mind that what I'm copping is one hundred percent authentic.",
     author: "Sarah L.",
     role: "Collector"
   },
   {
-    text: "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt.",
+    text: "The attention to detail is next level. From the stitching to the packaging, Mind Onn Business does it right every time.",
     author: "Chris D.",
     role: "Creative Director"
   }
