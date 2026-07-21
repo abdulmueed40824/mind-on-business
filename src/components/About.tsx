@@ -40,7 +40,7 @@ export const About: React.FC = () => {
             transition={{ delay: 0.2 }}
             className="text-white/60 text-lg leading-relaxed max-w-xl mb-12"
           >
-            Mind Onn Business was built in the streets of Minneapolis for the ones who hustle in silence and let the results do the talking. Every piece we drop carries that same energy — heavyweight fabrics, sharp silhouettes, and a mindset that never clocks out. This isn't just merch, it's a uniform for the grind.
+            Mind Onn Business was built in the heart of Minneapolis for the ones who move with purpose and let the results do the talking. Every piece we drop carries that same energy — heavyweight fabrics, sharp silhouettes, and a mindset built to win. This isn't just merch, it's a uniform for the ones on the come-up.
           </motion.p>
 
           <div className="grid grid-cols-2 gap-8">

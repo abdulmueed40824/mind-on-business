@@ -26,7 +26,7 @@ const pillars = [
   {
     icon: Globe,
     title: "Minneapolis Roots",
-    desc: "Designed and built in Minneapolis, carrying the grit and culture of the city in every stitch."
+    desc: "Designed and built in Minneapolis, carrying the pride and culture of the city in every stitch."
   }
 ];
 
