@@ -27,7 +27,7 @@ export const Footer: React.FC = () => {
           <div className="lg:col-span-2">
             <span className="text-4xl font-display text-primary block mb-8">Mind Onn Business</span>
             <p className="text-white/40 text-lg leading-relaxed max-w-sm mb-10">
-              Premium streetwear rooted in culture and built for those who keep their mind on business. Based in Minneapolis, worn everywhere the grind takes you.
+              More than streetwear — a lifestyle movement for those who keep their mind on business. Built in America for anyone committed to their mental, physical, financial, and personal growth.
             </p>
             <div className="flex gap-6">
               <a href="#" className="w-12 h-12 rounded-full border border-white/10 flex items-center justify-center text-white/40 hover:text-primary hover:border-primary transition-all duration-300">

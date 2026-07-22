@@ -40,7 +40,7 @@ export const About: React.FC = () => {
             transition={{ delay: 0.2 }}
             className="text-white/60 text-lg leading-relaxed max-w-xl mb-12"
           >
-            Mind Onn Business was built in the heart of Minneapolis for the ones who move with purpose and let the results do the talking. Every piece we drop carries that same energy — heavyweight fabrics, sharp silhouettes, and a mindset built to win. This isn't just merch, it's a uniform for the ones on the come-up.
+            Mind Onn Business represents staying focused on every aspect of life. Whether it's your health, mindset, finances, career, or personal growth, wearing the brand is a statement that you're committed to becoming your best self. Every piece we drop carries that same energy — heavyweight fabrics, sharp silhouettes, and a mindset built to win. This isn't just merch, it's a uniform for the ones on the come-up.
           </motion.p>
 
           <div className="grid grid-cols-2 gap-8">
@@ -49,7 +49,7 @@ export const About: React.FC = () => {
               <span className="text-xs text-white/40 uppercase tracking-widest">Established</span>
             </div>
             <div className="border-l border-primary/30 pl-6 py-2">
-              <span className="text-3xl font-display text-white block mb-1">Mpls</span>
+              <span className="text-3xl font-display text-white block mb-1">USA</span>
               <span className="text-xs text-white/40 uppercase tracking-widest">Roots</span>
             </div>
           </div>

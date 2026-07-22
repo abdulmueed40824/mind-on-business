@@ -25,8 +25,8 @@ const pillars = [
   },
   {
     icon: Globe,
-    title: "Minneapolis Roots",
-    desc: "Designed and built in Minneapolis, carrying the pride and culture of the city in every stitch."
+    title: "American Roots",
+    desc: "Built for people from all walks of life, Mind Onn Business is inspired by the universal pursuit of growth, discipline, and purpose. Every piece represents a commitment to staying focused on your mental, physical, financial, and personal journey."
   }
 ];
 

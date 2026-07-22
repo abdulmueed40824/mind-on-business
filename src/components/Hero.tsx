@@ -6,7 +6,7 @@ const subheadings = [
   "Graphic Tees.",
   "Heavyweight Hoodies.",
   "Statement Streetwear.",
-  "Built for the Grind."
+  "A Lifestyle Movement."
 ];
 
 export const Hero: React.FC = () => {
