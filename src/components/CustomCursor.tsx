@@ -27,10 +27,14 @@ export const CustomCursor: React.FC = () => {
     const onMouseOver = (e: MouseEvent) => {
       const target = e.target as HTMLElement;
       if (
-        target.tagName === 'A' || 
-        target.tagName === 'BUTTON' || 
-        target.closest('button') || 
+        target.tagName === 'A' ||
+        target.tagName === 'BUTTON' ||
+        target.tagName === 'INPUT' ||
+        target.tagName === 'SELECT' ||
+        target.tagName === 'TEXTAREA' ||
+        target.closest('button') ||
         target.closest('a') ||
+        target.closest('label') ||
         target.classList.contains('cursor-pointer')
       ) {
         ringRef.current?.classList.add('hovering');

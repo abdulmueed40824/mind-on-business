@@ -1,0 +1,1049 @@
+[
+  {
+    "name": "The Art Of",
+    "category": "T-Shirt",
+    "price": 30,
+    "description": "Client description",
+    "sizes": [
+      "S",
+      "M",
+      "XXL"
+    ],
+    "color": "Yellow",
+    "featured": true
+  },
+  {
+    "name": "The Art Of",
+    "category": "T-Shirt",
+    "price": 30,
+    "description": "Client description",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "color": "White",
+    "featured": true
+  },
+  {
+    "name": "The Art Of",
+    "category": "T-Shirt",
+    "price": 30,
+    "description": "Client description",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "color": "Mint Green",
+    "featured": true
+  },
+  {
+    "name": "The Art Of",
+    "category": "T-Shirt",
+    "price": 30,
+    "description": "Client description",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XXL"
+    ],
+    "color": "Tan",
+    "featured": true
+  },
+  {
+    "name": "The Art Of",
+    "category": "T-Shirt",
+    "price": 30,
+    "description": "Client description",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XXL"
+    ],
+    "color": "Royal Blue",
+    "featured": true
+  },
+  {
+    "name": "Believer",
+    "category": "T-Shirt",
+    "price": 30,
+    "description": "",
+    "sizes": [],
+    "color": "Black",
+    "featured": true
+  },
+  {
+    "name": "Believer",
+    "category": "T-Shirt",
+    "price": 30,
+    "description": "",
+    "sizes": [],
+    "color": "Red",
+    "featured": true
+  },
+  {
+    "name": "Believer",
+    "category": "T-Shirt",
+    "price": 30,
+    "description": "",
+    "sizes": [],
+    "color": "White",
+    "featured": true
+  },
+  {
+    "name": "Bossing Up",
+    "category": "T-Shirt",
+    "price": 30,
+    "description": "",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "color": "Sky Blue",
+    "featured": true
+  },
+  {
+    "name": "Bossing Up",
+    "category": "T-Shirt",
+    "price": 30,
+    "description": "",
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "color": "Mint Green",
+    "featured": true
+  },
+  {
+    "name": "Bossing Up",
+    "category": "T-Shirt",
+    "price": 30,
+    "description": "",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "color": "Black",
+    "featured": true
+  },
+  {
+    "name": "Bossing Up",
+    "category": "T-Shirt",
+    "price": 30,
+    "description": "",
+    "sizes": [
+      "S",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "color": "Light Gray",
+    "featured": true
+  },
+  {
+    "name": "Bossing Up",
+    "category": "T-Shirt",
+    "price": 30,
+    "description": "",
+    "sizes": [
+      "M"
+    ],
+    "color": "Royal Blue",
+    "featured": true
+  },
+  {
+    "name": "Bossing Up",
+    "category": "T-Shirt",
+    "price": 30,
+    "description": "",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "color": "Army Green",
+    "featured": true
+  },
+  {
+    "name": "Alive",
+    "category": "T-Shirt",
+    "price": 30,
+    "description": "",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "color": "White",
+    "featured": true
+  },
+  {
+    "name": "Alive",
+    "category": "T-Shirt",
+    "price": 30,
+    "description": "",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "color": "Black",
+    "featured": true
+  },
+  {
+    "name": "Alive",
+    "category": "T-Shirt",
+    "price": 30,
+    "description": "",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "color": "Light Gray",
+    "featured": true
+  },
+  {
+    "name": "Alive",
+    "category": "T-Shirt",
+    "price": 30,
+    "description": "",
+    "sizes": [
+      "S",
+      "M",
+      "XXL"
+    ],
+    "color": "Green",
+    "featured": true
+  },
+  {
+    "name": "Alive",
+    "category": "T-Shirt",
+    "price": 30,
+    "description": "",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "color": "Royal Blue",
+    "featured": true
+  },
+  {
+    "name": "Alive",
+    "category": "T-Shirt",
+    "price": 30,
+    "description": "",
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "color": "Red",
+    "featured": true
+  },
+  {
+    "name": "Chivarly not dead",
+    "category": "T-Shirt",
+    "price": 30,
+    "description": "V-Neck",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XXL"
+    ],
+    "color": "Yellow",
+    "featured": true
+  },
+  {
+    "name": "Chivarly not dead",
+    "category": "T-Shirt",
+    "price": 30,
+    "description": "V-Neck",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "color": "Red",
+    "featured": true
+  },
+  {
+    "name": "Chivarly not dead",
+    "category": "T-Shirt",
+    "price": 30,
+    "description": "V-Neck",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XXL"
+    ],
+    "color": "Navy Blue",
+    "featured": true
+  },
+  {
+    "name": "Chivarly not dead",
+    "category": "T-Shirt",
+    "price": 30,
+    "description": "V-Neck",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XXL"
+    ],
+    "color": "Storm Gray",
+    "featured": true
+  },
+  {
+    "name": "Chivarly not dead",
+    "category": "T-Shirt",
+    "price": 30,
+    "description": "V-Neck",
+    "sizes": [
+      "M",
+      "L"
+    ],
+    "color": "Black",
+    "featured": true
+  },
+  {
+    "name": "Its not a game",
+    "category": "T-Shirt",
+    "price": 30,
+    "description": "",
+    "sizes": [
+      "M",
+      "L",
+      "XL"
+    ],
+    "color": "White",
+    "featured": true
+  },
+  {
+    "name": "Its not a game",
+    "category": "T-Shirt",
+    "price": 30,
+    "description": "",
+    "sizes": [
+      "M",
+      "L",
+      "XL"
+    ],
+    "color": "Black",
+    "featured": true
+  },
+  {
+    "name": "Legit",
+    "category": "T-Shirt",
+    "price": 30,
+    "description": "",
+    "sizes": [
+      "L"
+    ],
+    "color": "Red",
+    "featured": true
+  },
+  {
+    "name": "Legit",
+    "category": "T-Shirt",
+    "price": 30,
+    "description": "",
+    "sizes": [
+      "L"
+    ],
+    "color": "Light Gray",
+    "featured": true
+  },
+  {
+    "name": "Legit",
+    "category": "T-Shirt",
+    "price": 30,
+    "description": "",
+    "sizes": [
+      "L"
+    ],
+    "color": "Royal Blue",
+    "featured": true
+  },
+  {
+    "name": "Legit",
+    "category": "T-Shirt",
+    "price": 30,
+    "description": "",
+    "sizes": [
+      "L"
+    ],
+    "color": "White",
+    "featured": true
+  },
+  {
+    "name": "Legit",
+    "category": "T-Shirt",
+    "price": 30,
+    "description": "",
+    "sizes": [
+      "L"
+    ],
+    "color": "Green",
+    "featured": true
+  },
+  {
+    "name": "Plan Ahead",
+    "category": "T-Shirt",
+    "price": 30,
+    "description": "",
+    "sizes": [],
+    "color": "Red",
+    "featured": true
+  },
+  {
+    "name": "Plan Ahead",
+    "category": "T-Shirt",
+    "price": 30,
+    "description": "",
+    "sizes": [],
+    "color": "Royal Blue",
+    "featured": true
+  },
+  {
+    "name": "Plan Ahead",
+    "category": "T-Shirt",
+    "price": 30,
+    "description": "",
+    "sizes": [],
+    "color": "Marron",
+    "featured": true
+  },
+  {
+    "name": "Plan Ahead",
+    "category": "T-Shirt",
+    "price": 30,
+    "description": "",
+    "sizes": [],
+    "color": "Green",
+    "featured": true
+  },
+  {
+    "name": "Plan Ahead",
+    "category": "T-Shirt",
+    "price": 30,
+    "description": "",
+    "sizes": [],
+    "color": "Light Gray",
+    "featured": true
+  },
+  {
+    "name": "To the Top",
+    "category": "T-Shirt",
+    "price": 30,
+    "description": "",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "color": "Royal Blue",
+    "featured": true
+  },
+  {
+    "name": "To the Top",
+    "category": "T-Shirt",
+    "price": 30,
+    "description": "",
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "color": "Red",
+    "featured": true
+  },
+  {
+    "name": "To the Top",
+    "category": "T-Shirt",
+    "price": 30,
+    "description": "",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "color": "White",
+    "featured": true
+  },
+  {
+    "name": "To the Top",
+    "category": "T-Shirt",
+    "price": 30,
+    "description": "",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XXL"
+    ],
+    "color": "Black",
+    "featured": true
+  },
+  {
+    "name": "To the Top",
+    "category": "T-Shirt",
+    "price": 30,
+    "description": "",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XXL"
+    ],
+    "color": "Yellow",
+    "featured": true
+  },
+  {
+    "name": "To the Top",
+    "category": "T-Shirt",
+    "price": 30,
+    "description": "",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "color": "Green",
+    "featured": true
+  },
+  {
+    "name": "To the Top",
+    "category": "T-Shirt",
+    "price": 30,
+    "description": "",
+    "sizes": [
+      "S",
+      "M"
+    ],
+    "color": "Navy Blue",
+    "featured": true
+  },
+  {
+    "name": "Bought",
+    "category": "Sweatshirts & Hoodies",
+    "price": 40,
+    "description": "",
+    "sizes": [
+      "S",
+      "M",
+      "XL",
+      "XXL"
+    ],
+    "color": "Army Green",
+    "featured": true
+  },
+  {
+    "name": "Bought",
+    "category": "Sweatshirts & Hoodies",
+    "price": 40,
+    "description": "",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "color": "Royal Blue",
+    "featured": true
+  },
+  {
+    "name": "Bought",
+    "category": "Sweatshirts & Hoodies",
+    "price": 40,
+    "description": "",
+    "sizes": [
+      "S",
+      "M",
+      "XXL"
+    ],
+    "color": "Black",
+    "featured": true
+  },
+  {
+    "name": "Legitimately Suited",
+    "category": "Sweatshirts & Hoodies",
+    "price": 60,
+    "description": "Jogging Suit",
+    "sizes": [
+      "S"
+    ],
+    "color": "Sky Blue",
+    "featured": true
+  },
+  {
+    "name": "Legitimately Suited",
+    "category": "Sweatshirts & Hoodies",
+    "price": 60,
+    "description": "Jogging Suit",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "color": "Yellow",
+    "featured": true
+  },
+  {
+    "name": "Legitimately Suited",
+    "category": "Sweatshirts & Hoodies",
+    "price": 60,
+    "description": "Jogging Suit",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "color": "Green",
+    "featured": true
+  },
+  {
+    "name": "Legitimately Suited",
+    "category": "Sweatshirts & Hoodies",
+    "price": 60,
+    "description": "Jogging Suit",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "color": "Black",
+    "featured": true
+  },
+  {
+    "name": "Long Term Believer",
+    "category": "Sweatshirts & Hoodies",
+    "price": 60,
+    "description": "Jogging Suit",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "color": "Black",
+    "featured": true
+  },
+  {
+    "name": "Long Term Believer",
+    "category": "Sweatshirts & Hoodies",
+    "price": 40,
+    "description": "",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "color": "White",
+    "featured": true
+  },
+  {
+    "name": "Long Term Believer",
+    "category": "Sweatshirts & Hoodies",
+    "price": 40,
+    "description": "",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "color": "Red",
+    "featured": true
+  },
+  {
+    "name": "On It",
+    "category": "Sweatshirts & Hoodies",
+    "price": 40,
+    "description": "",
+    "sizes": [],
+    "color": "Fatigue",
+    "featured": true
+  },
+  {
+    "name": "On It",
+    "category": "Sweatshirts & Hoodies",
+    "price": 40,
+    "description": "",
+    "sizes": [],
+    "color": "White",
+    "featured": true
+  },
+  {
+    "name": "On It",
+    "category": "Sweatshirts & Hoodies",
+    "price": 40,
+    "description": "",
+    "sizes": [
+      "S",
+      "M"
+    ],
+    "color": "Yellow",
+    "featured": true
+  },
+  {
+    "name": "On It",
+    "category": "Sweatshirts & Hoodies",
+    "price": 40,
+    "description": "",
+    "sizes": [
+      "M",
+      "XL"
+    ],
+    "color": "Green",
+    "featured": true
+  },
+  {
+    "name": "On It",
+    "category": "Sweatshirts & Hoodies",
+    "price": 40,
+    "description": "",
+    "sizes": [
+      "XL",
+      "XXL"
+    ],
+    "color": "Black",
+    "featured": true
+  },
+  {
+    "name": "Plugged In",
+    "category": "Sweatshirts & Hoodies",
+    "price": 40,
+    "description": "",
+    "sizes": [
+      "S",
+      "M",
+      "XL",
+      "XXL"
+    ],
+    "color": "Red",
+    "featured": true
+  },
+  {
+    "name": "Plugged In",
+    "category": "Sweatshirts & Hoodies",
+    "price": 40,
+    "description": "",
+    "sizes": [
+      "S",
+      "M",
+      "XL"
+    ],
+    "color": "Black",
+    "featured": true
+  },
+  {
+    "name": "Plugged In",
+    "category": "Sweatshirts & Hoodies",
+    "price": 40,
+    "description": "",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "color": "White",
+    "featured": true
+  },
+  {
+    "name": "Suit Up",
+    "category": "Sweatshirts & Hoodies",
+    "price": 50,
+    "description": "Jogging Suit",
+    "sizes": [
+      "S"
+    ],
+    "color": "Orange",
+    "featured": true
+  },
+  {
+    "name": "Suit Up",
+    "category": "Sweatshirts & Hoodies",
+    "price": 50,
+    "description": "Jogging Suit",
+    "sizes": [
+      "M",
+      "L"
+    ],
+    "color": "Hot Pink",
+    "featured": true
+  },
+  {
+    "name": "Suit Up",
+    "category": "Sweatshirts & Hoodies",
+    "price": 50,
+    "description": "Jogging Suit",
+    "sizes": [
+      "M",
+      "L"
+    ],
+    "color": "Black",
+    "featured": true
+  },
+  {
+    "name": "Suit Up",
+    "category": "Sweatshirts & Hoodies",
+    "price": 50,
+    "description": "Jogging Suit",
+    "sizes": [
+      "M",
+      "L",
+      "XL"
+    ],
+    "color": "Royal Blue",
+    "featured": true
+  },
+  {
+    "name": "Suit Up",
+    "category": "Sweatshirts & Hoodies",
+    "price": 50,
+    "description": "Jogging Suit",
+    "sizes": [
+      "M",
+      "L",
+      "XL"
+    ],
+    "color": "Sky Blue",
+    "featured": true
+  },
+  {
+    "name": "The Piece",
+    "category": "Sweatshirts & Hoodies",
+    "price": 50,
+    "description": "",
+    "sizes": [],
+    "color": "Purple",
+    "featured": true
+  },
+  {
+    "name": "The Piece",
+    "category": "Sweatshirts & Hoodies",
+    "price": 50,
+    "description": "",
+    "sizes": [],
+    "color": "Green",
+    "featured": true
+  },
+  {
+    "name": "The Piece",
+    "category": "Sweatshirts & Hoodies",
+    "price": 50,
+    "description": "",
+    "sizes": [],
+    "color": "Royal Blue",
+    "featured": true
+  },
+  {
+    "name": "The Piece",
+    "category": "Sweatshirts & Hoodies",
+    "price": 50,
+    "description": "",
+    "sizes": [],
+    "color": "Black",
+    "featured": true
+  },
+  {
+    "name": "The Piece",
+    "category": "Sweatshirts & Hoodies",
+    "price": 50,
+    "description": "",
+    "sizes": [],
+    "color": "Marron",
+    "featured": true
+  },
+  {
+    "name": "The Piece",
+    "category": "Sweatshirts & Hoodies",
+    "price": 50,
+    "description": "",
+    "sizes": [],
+    "color": "Orange",
+    "featured": true
+  },
+  {
+    "name": "The Piece",
+    "category": "Sweatshirts & Hoodies",
+    "price": 50,
+    "description": "",
+    "sizes": [],
+    "color": "Red",
+    "featured": true
+  },
+  {
+    "name": "True to it",
+    "category": "Sweatshirts & Hoodies",
+    "price": 40,
+    "description": "",
+    "sizes": [
+      "S",
+      "M",
+      "XXL"
+    ],
+    "color": "Black",
+    "featured": true
+  },
+  {
+    "name": "True to it",
+    "category": "Sweatshirts & Hoodies",
+    "price": 40,
+    "description": "",
+    "sizes": [
+      "S",
+      "M"
+    ],
+    "color": "Royal Purple",
+    "featured": true
+  },
+  {
+    "name": "True to it",
+    "category": "Sweatshirts & Hoodies",
+    "price": 40,
+    "description": "",
+    "sizes": [
+      "S",
+      "M",
+      "XL",
+      "XXL"
+    ],
+    "color": "Green",
+    "featured": true
+  },
+  {
+    "name": "Bomber Squad -",
+    "category": "Jackets",
+    "price": 175,
+    "description": "",
+    "sizes": [
+      "5XL"
+    ],
+    "color": "Royal Blue",
+    "featured": true
+  },
+  {
+    "name": "Bomber Squad - Gentlemen",
+    "category": "Jackets",
+    "price": 175,
+    "description": "customizable",
+    "sizes": [],
+    "color": "Red",
+    "featured": true
+  },
+  {
+    "name": "Bomber Squad - God's Love",
+    "category": "Jackets",
+    "price": 175,
+    "description": "customizable",
+    "sizes": [],
+    "color": "Yellow",
+    "featured": true
+  },
+  {
+    "name": "Bomber Squad - Long Walk",
+    "category": "Jackets",
+    "price": 175,
+    "description": "customizable",
+    "sizes": [],
+    "color": "Green",
+    "featured": true
+  },
+  {
+    "name": "Bomber Squad - True Blue",
+    "category": "Jackets",
+    "price": 175,
+    "description": "customizable",
+    "sizes": [],
+    "color": "Navy Blue",
+    "featured": true
+  },
+  {
+    "name": "Bomber Squad - Brewer Blue",
+    "category": "Jackets",
+    "price": 175,
+    "description": "customizable",
+    "sizes": [],
+    "color": "Royal blue",
+    "featured": true
+  },
+  {
+    "name": "Bomber Squad - Sand Storm",
+    "category": "T-Shirt",
+    "price": 175,
+    "description": "customizable",
+    "sizes": [],
+    "color": "Tan",
+    "featured": true
+  },
+  {
+    "name": "Bomber Squad - Concrete",
+    "category": "T-Shirt",
+    "price": 175,
+    "description": "customizable",
+    "sizes": [],
+    "color": "Washed Gray",
+    "featured": true
+  },
+  {
+    "name": "Bomber Squad - Holy Spirit",
+    "category": "T-Shirt",
+    "price": 175,
+    "description": "customizable",
+    "sizes": [],
+    "color": "Black",
+    "featured": true
+  }
+]

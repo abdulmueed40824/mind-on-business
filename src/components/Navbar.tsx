@@ -1,25 +1,28 @@
 import React, { useState, useEffect } from 'react';
+import { Link, useLocation } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X, ShoppingBag } from 'lucide-react';
 import { cn } from '@/lib/utils';
+import { useCart } from '@/context/CartContext';
 
 export const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const { itemCount, openCart } = useCart();
+  const location = useLocation();
+  const isHome = location.pathname === '/';
 
   useEffect(() => {
-    const handleScroll = () => {
-      setScrolled(window.scrollY > 50);
-    };
+    const handleScroll = () => setScrolled(window.scrollY > 50);
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
   const navLinks = [
-    { name: 'Home', href: '#home' },
-    { name: 'About', href: '#about' },
-    { name: 'Shop', href: '#shop' },
-    { name: 'Contact', href: '#contact' },
+    { name: 'Home', href: isHome ? '#home' : '/#home' },
+    { name: 'About', href: isHome ? '#about' : '/#about' },
+    { name: 'Shop', href: '/shop' },
+    { name: 'Contact', href: isHome ? '#contact' : '/#contact' },
   ];
 
   return (
@@ -32,36 +35,52 @@ export const Navbar: React.FC = () => {
       >
         <div className="max-w-container mx-auto w-full flex items-center justify-between">
           <div className="flex items-center gap-8">
-            <button 
+            <button
               onClick={() => setIsOpen(true)}
               className="p-2 hover:bg-white/10 rounded-full transition-colors md:hidden"
             >
               <Menu className="w-6 h-6 text-white" />
             </button>
-            
-            <a href="#home" className="h-[40px] flex items-center group">
-              <span className="text-3xl font-display text-primary tracking-tighter group-hover:text-secondary transition-colors">
+
+            <Link to="/" className="h-[40px] flex items-center group">
+              <span className="text-2xl md:text-3xl font-display text-primary tracking-tighter group-hover:text-secondary transition-colors">
                 Mind Onn Business
               </span>
-            </a>
+            </Link>
 
             <div className="hidden md:flex items-center gap-8 ml-12">
               {navLinks.map((link) => (
-                <a
+                <Link
                   key={link.name}
-                  href={link.href}
+                  to={link.href}
                   className="text-sm font-medium text-white/70 hover:text-primary tracking-widest uppercase transition-colors"
                 >
                   {link.name}
-                </a>
+                </Link>
               ))}
             </div>
           </div>
 
-          <button className="flex items-center gap-2 bg-primary text-primary-foreground px-6 py-2.5 rounded-none font-display uppercase tracking-widest hover:bg-secondary hover:text-white transition-all duration-300">
-            <ShoppingBag className="w-4 h-4" />
-            <span className="hidden sm:inline">Shop the Drop</span>
-          </button>
+          <div className="flex items-center gap-3">
+            <Link
+              to="/shop"
+              className="hidden sm:flex items-center gap-2 border border-white/20 text-white px-5 py-2.5 font-display uppercase tracking-widest text-sm hover:border-primary hover:text-primary transition-all"
+            >
+              Shop
+            </Link>
+            <button
+              onClick={openCart}
+              className="relative flex items-center gap-2 bg-primary text-primary-foreground px-5 py-2.5 font-display uppercase tracking-widest hover:bg-secondary hover:text-white transition-all duration-300"
+            >
+              <ShoppingBag className="w-4 h-4" />
+              <span className="hidden sm:inline">Cart</span>
+              {itemCount > 0 && (
+                <span className="absolute -top-2 -right-2 w-5 h-5 bg-secondary text-white text-[10px] font-bold rounded-full flex items-center justify-center">
+                  {itemCount}
+                </span>
+              )}
+            </button>
+          </div>
         </div>
       </nav>
 
@@ -83,7 +102,7 @@ export const Navbar: React.FC = () => {
               className="fixed top-0 left-0 bottom-0 w-[80%] max-w-sm bg-[#0A0A0A] z-[2001] p-10 flex flex-col"
             >
               <div className="flex items-center justify-between mb-16">
-                <span className="text-4xl font-display text-primary">Mind Onn Business</span>
+                <span className="text-3xl font-display text-primary">Mind Onn Business</span>
                 <button onClick={() => setIsOpen(false)}>
                   <X className="w-8 h-8 text-white" />
                 </button>
@@ -91,25 +110,32 @@ export const Navbar: React.FC = () => {
 
               <div className="flex flex-col gap-8">
                 {navLinks.map((link, i) => (
-                  <motion.a
+                  <motion.div
                     initial={{ x: -20, opacity: 0 }}
                     animate={{ x: 0, opacity: 1 }}
                     transition={{ delay: 0.1 * i + 0.2 }}
                     key={link.name}
-                    href={link.href}
-                    onClick={() => setIsOpen(false)}
-                    className="text-4xl font-display text-white hover:text-primary transition-colors"
                   >
-                    {link.name}
-                  </motion.a>
+                    <Link
+                      to={link.href}
+                      onClick={() => setIsOpen(false)}
+                      className="text-4xl font-display text-white hover:text-primary transition-colors"
+                    >
+                      {link.name}
+                    </Link>
+                  </motion.div>
                 ))}
               </div>
 
               <div className="mt-auto">
-                <p className="text-white/40 text-xs uppercase tracking-[0.2em] mb-4">Mind on Business.</p>
+                <p className="text-white/40 text-xs uppercase tracking-[0.2em] mb-4">Mind Onn Business.</p>
                 <div className="flex gap-4">
-                  <div className="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center hover:border-primary hover:text-primary transition-colors cursor-pointer">IG</div>
-                  <div className="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center hover:border-primary hover:text-primary transition-colors cursor-pointer">TW</div>
+                  <div className="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center hover:border-primary hover:text-primary transition-colors cursor-pointer">
+                    IG
+                  </div>
+                  <div className="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center hover:border-primary hover:text-primary transition-colors cursor-pointer">
+                    TW
+                  </div>
                 </div>
               </div>
             </motion.div>

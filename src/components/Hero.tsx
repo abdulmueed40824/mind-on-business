@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { ArrowRight, Play } from 'lucide-react';
 
@@ -87,12 +88,12 @@ export const Hero: React.FC = () => {
           transition={{ delay: 1, duration: 0.8 }}
           className="flex flex-col sm:flex-row items-center gap-6"
         >
-          <button className="group relative px-10 py-5 bg-primary text-primary-foreground font-display text-xl uppercase tracking-widest overflow-hidden">
+          <Link to="/shop" className="group relative px-10 py-5 bg-primary text-primary-foreground font-display text-xl uppercase tracking-widest overflow-hidden inline-flex">
             <span className="relative z-10 flex items-center gap-3">
               Shop The Drop <ArrowRight className="w-5 h-5 group-hover:translate-x-2 transition-transform" />
             </span>
             <div className="absolute inset-0 bg-secondary translate-y-full group-hover:translate-y-0 transition-transform duration-300" />
-          </button>
+          </Link>
 
           <button className="flex items-center gap-4 text-white hover:text-primary transition-colors group">
             <div className="w-14 h-14 rounded-full border border-white/20 flex items-center justify-center group-hover:border-primary transition-colors">
