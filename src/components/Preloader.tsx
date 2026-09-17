@@ -37,7 +37,7 @@ export const Preloader: React.FC = () => {
             transition={{ delay: 0.5, duration: 0.8 }}
             className="text-white/60 tracking-[0.4em] uppercase text-sm mt-8 relative z-10"
           >
-            Mind on Business. Always.
+            Mind Onn Business. Always.
           </motion.p>
 
           <motion.div 

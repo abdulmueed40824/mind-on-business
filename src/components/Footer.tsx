@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { Instagram, Twitter, Youtube, ArrowUp } from 'lucide-react';
 
@@ -27,7 +28,7 @@ export const Footer: React.FC = () => {
           <div className="lg:col-span-2">
             <span className="text-4xl font-display text-primary block mb-8">Mind Onn Business</span>
             <p className="text-white/40 text-lg leading-relaxed max-w-sm mb-10">
-              More than streetwear — a lifestyle movement for those who keep their mind on business. Built in America for anyone committed to their mental, physical, financial, and personal growth.
+              More than streetwear — a lifestyle movement for those who keep their mind onn business. Built in America for anyone committed to their mental, physical, financial, and personal growth.
             </p>
             <div className="flex gap-6">
               <a href="#" className="w-12 h-12 rounded-full border border-white/10 flex items-center justify-center text-white/40 hover:text-primary hover:border-primary transition-all duration-300">
@@ -46,10 +47,10 @@ export const Footer: React.FC = () => {
           <div>
             <h4 className="text-xs text-white/40 uppercase tracking-[0.4em] mb-10">Navigation</h4>
             <ul className="flex flex-col gap-6">
-              <li><a href="#home" className="text-xl font-display text-white hover:text-primary transition-colors">Home</a></li>
-              <li><a href="#about" className="text-xl font-display text-white hover:text-primary transition-colors">About</a></li>
-              <li><a href="#shop" className="text-xl font-display text-white hover:text-primary transition-colors">Shop</a></li>
-              <li><a href="#contact" className="text-xl font-display text-white hover:text-primary transition-colors">Contact</a></li>
+              <li><Link to="/" className="text-xl font-display text-white hover:text-primary transition-colors">Home</Link></li>
+              <li><Link to="/about" className="text-xl font-display text-white hover:text-primary transition-colors">About</Link></li>
+              <li><Link to="/shop" className="text-xl font-display text-white hover:text-primary transition-colors">Shop</Link></li>
+              <li><Link to="/contact" className="text-xl font-display text-white hover:text-primary transition-colors">Contact</Link></li>
             </ul>
           </div>
 

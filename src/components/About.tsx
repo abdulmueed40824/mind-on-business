@@ -31,7 +31,7 @@ export const About: React.FC = () => {
             viewport={{ once: true }}
             className="text-4xl sm:text-5xl md:text-8xl font-display mb-10 leading-[1] md:leading-[0.9]"
           >
-            BUILT FOR THE ONES WHO KEEP THEIR <span className="text-white/20">MIND ON BUSINESS</span>
+            BUILT FOR THE ONES WHO KEEP THEIR <span className="text-white/20">MIND ONN BUSINESS</span>
           </motion.h2>
           <motion.p
             initial={{ opacity: 0, y: 20 }}

@@ -41,7 +41,7 @@ export const Checkout: React.FC = () => {
             <CheckCircle className="w-16 h-16 text-primary mx-auto mb-6" />
             <h1 className="text-4xl font-display mb-4">Order Confirmed</h1>
             <p className="text-white/60 mb-8">
-              Thank you for keeping your mind on business. Your order is being processed and you will receive a confirmation email shortly.
+              Thank you for keeping your mind onn business. Your order is being processed and you will receive a confirmation email shortly.
             </p>
             <Link
               to="/shop"

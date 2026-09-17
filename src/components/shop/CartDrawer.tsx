@@ -37,7 +37,7 @@ export const CartDrawer: React.FC = () => {
 
             <div className="flex-1 overflow-y-auto p-6 space-y-6">
               {items.length === 0 ? (
-                <p className="text-white/40 text-center py-12">Your cart is empty. Keep your mind on business.</p>
+                <p className="text-white/40 text-center py-12">Your cart is empty. Keep your mind onn business.</p>
               ) : (
                 items.map((item) => (
                   <div key={item.id} className="flex gap-4">

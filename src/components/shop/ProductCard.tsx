@@ -11,10 +11,9 @@ interface ProductCardProps {
 export const ProductCard: React.FC<ProductCardProps> = ({ product, index = 0 }) => {
   return (
     <motion.div
-      initial={{ opacity: 0, y: 30 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true }}
-      transition={{ delay: index * 0.05 }}
+      initial={{ opacity: 0, y: 16 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ delay: Math.min(index * 0.04, 0.4), duration: 0.35 }}
     >
       <Link to={`/shop/${product.slug}`} className="group block cursor-pointer">
         <div className="relative aspect-[3/4] overflow-hidden bg-[#151515] rounded-lg mb-4">

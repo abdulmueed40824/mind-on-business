@@ -1179,10 +1179,7 @@ export const products: Product[] = [
         "name": "Sky Blue",
         "hex": "#7DD3FC",
         "images": [
-          "/assets/products/legitimately-suited/primary.jpg",
-          "/assets/products/legitimately-suited/2.jpg",
-          "/assets/products/legitimately-suited/3.jpg",
-          "/assets/products/legitimately-suited/4.jpg"
+          "/assets/products/legitimately-suited/sky-blue.jpg"
         ],
         "sizes": [
           "S"
@@ -1193,10 +1190,7 @@ export const products: Product[] = [
         "name": "Yellow",
         "hex": "#F5D547",
         "images": [
-          "/assets/products/legitimately-suited/primary.jpg",
-          "/assets/products/legitimately-suited/2.jpg",
-          "/assets/products/legitimately-suited/3.jpg",
-          "/assets/products/legitimately-suited/4.jpg"
+          "/assets/products/legitimately-suited/yellow.jpg"
         ],
         "sizes": [
           "S",
@@ -1211,10 +1205,7 @@ export const products: Product[] = [
         "name": "Green",
         "hex": "#16A34A",
         "images": [
-          "/assets/products/legitimately-suited/primary.jpg",
-          "/assets/products/legitimately-suited/2.jpg",
-          "/assets/products/legitimately-suited/3.jpg",
-          "/assets/products/legitimately-suited/4.jpg"
+          "/assets/products/legitimately-suited/green.jpg"
         ],
         "sizes": [
           "S",
@@ -1229,10 +1220,7 @@ export const products: Product[] = [
         "name": "Black",
         "hex": "#1A1A1A",
         "images": [
-          "/assets/products/legitimately-suited/primary.jpg",
-          "/assets/products/legitimately-suited/2.jpg",
-          "/assets/products/legitimately-suited/3.jpg",
-          "/assets/products/legitimately-suited/4.jpg"
+          "/assets/products/legitimately-suited/black.jpg"
         ],
         "sizes": [
           "S",
@@ -1256,12 +1244,12 @@ export const products: Product[] = [
     ],
     "outOfStock": false,
     "images": [
-      "/assets/products/legitimately-suited/primary.jpg",
-      "/assets/products/legitimately-suited/2.jpg",
-      "/assets/products/legitimately-suited/3.jpg",
-      "/assets/products/legitimately-suited/4.jpg"
+      "/assets/products/legitimately-suited/sky-blue.jpg",
+      "/assets/products/legitimately-suited/yellow.jpg",
+      "/assets/products/legitimately-suited/green.jpg",
+      "/assets/products/legitimately-suited/black.jpg"
     ],
-    "primaryImage": "/assets/products/legitimately-suited/primary.jpg"
+    "primaryImage": "/assets/products/legitimately-suited/sky-blue.jpg"
   },
   {
     "id": "long-term-believer",
@@ -1355,11 +1343,7 @@ export const products: Product[] = [
         "name": "Fatigue",
         "hex": "#8B8B3D",
         "images": [
-          "/assets/products/on-it/primary.jpg",
-          "/assets/products/on-it/2.jpg",
-          "/assets/products/on-it/3.jpg",
-          "/assets/products/on-it/4.jpg",
-          "/assets/products/on-it/5.jpg"
+          "/assets/products/on-it/fatigue.jpg"
         ],
         "sizes": [
           "S",
@@ -1374,11 +1358,7 @@ export const products: Product[] = [
         "name": "White",
         "hex": "#F5F5F5",
         "images": [
-          "/assets/products/on-it/primary.jpg",
-          "/assets/products/on-it/2.jpg",
-          "/assets/products/on-it/3.jpg",
-          "/assets/products/on-it/4.jpg",
-          "/assets/products/on-it/5.jpg"
+          "/assets/products/on-it/white.jpg"
         ],
         "sizes": [
           "S",
@@ -1393,11 +1373,7 @@ export const products: Product[] = [
         "name": "Yellow",
         "hex": "#F5D547",
         "images": [
-          "/assets/products/on-it/primary.jpg",
-          "/assets/products/on-it/2.jpg",
-          "/assets/products/on-it/3.jpg",
-          "/assets/products/on-it/4.jpg",
-          "/assets/products/on-it/5.jpg"
+          "/assets/products/on-it/yellow.jpg"
         ],
         "sizes": [
           "S",
@@ -1409,11 +1385,7 @@ export const products: Product[] = [
         "name": "Green",
         "hex": "#16A34A",
         "images": [
-          "/assets/products/on-it/primary.jpg",
-          "/assets/products/on-it/2.jpg",
-          "/assets/products/on-it/3.jpg",
-          "/assets/products/on-it/4.jpg",
-          "/assets/products/on-it/5.jpg"
+          "/assets/products/on-it/green.jpg"
         ],
         "sizes": [
           "M",
@@ -1425,11 +1397,7 @@ export const products: Product[] = [
         "name": "Black",
         "hex": "#1A1A1A",
         "images": [
-          "/assets/products/on-it/primary.jpg",
-          "/assets/products/on-it/2.jpg",
-          "/assets/products/on-it/3.jpg",
-          "/assets/products/on-it/4.jpg",
-          "/assets/products/on-it/5.jpg"
+          "/assets/products/on-it/black.jpg"
         ],
         "sizes": [
           "XL",
@@ -1450,13 +1418,13 @@ export const products: Product[] = [
     ],
     "outOfStock": false,
     "images": [
-      "/assets/products/on-it/primary.jpg",
-      "/assets/products/on-it/2.jpg",
-      "/assets/products/on-it/3.jpg",
-      "/assets/products/on-it/4.jpg",
-      "/assets/products/on-it/5.jpg"
+      "/assets/products/on-it/fatigue.jpg",
+      "/assets/products/on-it/white.jpg",
+      "/assets/products/on-it/yellow.jpg",
+      "/assets/products/on-it/green.jpg",
+      "/assets/products/on-it/black.jpg"
     ],
-    "primaryImage": "/assets/products/on-it/primary.jpg"
+    "primaryImage": "/assets/products/on-it/fatigue.jpg"
   },
   {
     "id": "plugged-in",
