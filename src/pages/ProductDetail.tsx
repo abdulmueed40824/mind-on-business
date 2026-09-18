@@ -23,6 +23,11 @@ import {
   type FeaturedTag,
 } from '@/data/products';
 import { useCart } from '@/context/CartContext';
+import {
+  getColorGallery,
+  getColorPreviewImage,
+  usesSharedAngleGallery,
+} from '@/lib/productGallery';
 import { cn } from '@/lib/utils';
 
 const tagLabels: Record<FeaturedTag, string> = {
@@ -52,10 +57,10 @@ export const ProductDetail: React.FC = () => {
 
   const gallery = useMemo(() => {
     if (!product) return [];
-    const colorImages = (selectedColor?.images || []).filter(Boolean);
-    if (colorImages.length > 0) return colorImages;
-    return product.images.filter(Boolean);
-  }, [product, selectedColor]);
+    return getColorGallery(product, selectedColorIndex);
+  }, [product, selectedColorIndex]);
+
+  const sharedAngleGallery = product ? usesSharedAngleGallery(product) : false;
 
   const relatedProducts = useMemo(() => {
     if (!product) return [];
@@ -73,6 +78,10 @@ export const ProductDetail: React.FC = () => {
   }, [slug]);
 
   useEffect(() => {
+    setActiveImage(0);
+  }, [selectedColorIndex]);
+
+  useEffect(() => {
     if (activeImage >= gallery.length) setActiveImage(0);
   }, [gallery.length, activeImage]);
 
@@ -88,7 +97,7 @@ export const ProductDetail: React.FC = () => {
       size: selectedSize,
       color: selectedColor.name,
       quantity,
-      image: gallery[0] || product.primaryImage,
+      image: gallery[activeImage] ?? getColorPreviewImage(product, selectedColorIndex),
     });
   };
 
@@ -129,7 +138,7 @@ export const ProductDetail: React.FC = () => {
                   <AnimatePresence mode="wait">
                     {gallery[activeImage] ? (
                       <motion.img
-                        key={`${selectedColorIndex}-${gallery[activeImage]}`}
+                        key={`c${selectedColorIndex}-i${activeImage}-${gallery[activeImage]}`}
                         initial={{ opacity: 0, scale: 1.02 }}
                         animate={{ opacity: 1, scale: 1 }}
                         exit={{ opacity: 0 }}
@@ -151,8 +160,18 @@ export const ProductDetail: React.FC = () => {
                     </div>
                   )}
 
+                  {selectedColor && (
+                    <div className="absolute top-4 left-4 flex items-center gap-2 bg-[#0A0A0A]/85 backdrop-blur-md border border-white/10 text-[10px] uppercase tracking-widest font-bold px-3 py-1.5 rounded-full">
+                      <span
+                        className="w-3 h-3 rounded-full border border-white/30 shrink-0"
+                        style={{ backgroundColor: selectedColor.hex }}
+                      />
+                      {selectedColor.name}
+                    </div>
+                  )}
+
                   {product.outOfStock && (
-                    <div className="absolute top-4 left-4 bg-secondary/95 text-white text-[10px] uppercase tracking-widest font-bold px-4 py-2 rounded-full">
+                    <div className="absolute top-4 right-4 bg-secondary/95 text-white text-[10px] uppercase tracking-widest font-bold px-4 py-2 rounded-full">
                       Sold Out
                     </div>
                   )}
@@ -163,7 +182,7 @@ export const ProductDetail: React.FC = () => {
                 <div className="flex gap-3 mt-4 overflow-x-auto no-scrollbar pb-1">
                   {gallery.map((img, i) => (
                     <button
-                      key={`${img}-${i}`}
+                      key={`c${selectedColorIndex}-thumb-${i}-${img}`}
                       type="button"
                       onClick={() => setActiveImage(i)}
                       className={cn(
@@ -234,42 +253,50 @@ export const ProductDetail: React.FC = () => {
                     <span className="text-sm font-display text-white">{selectedColor?.name}</span>
                   </div>
                   <div className="flex flex-wrap gap-2">
-                    {product.colors.map((color, i) => (
-                      <button
-                        key={`${color.name}-${i}`}
-                        type="button"
-                        aria-label={`Color ${color.name}`}
-                        aria-pressed={selectedColorIndex === i}
-                        onClick={() => {
-                          setSelectedColorIndex(i);
-                          setSelectedSize('');
-                          setActiveImage(0);
-                        }}
-                        className={cn(
-                          'flex items-center gap-2 pl-1.5 pr-3 py-1.5 rounded-full border transition-all',
-                          selectedColorIndex === i
-                            ? 'border-primary bg-primary/10'
-                            : 'border-white/15 hover:border-white/40 bg-[#0A0A0A]/50'
-                        )}
-                      >
-                        <span
+                    {product.colors.map((color, i) => {
+                      const preview = getColorPreviewImage(product, i);
+                      return (
+                        <button
+                          key={`${color.name}-${i}`}
+                          type="button"
+                          aria-label={`Color ${color.name}`}
+                          aria-pressed={selectedColorIndex === i}
+                          onClick={() => {
+                            setSelectedColorIndex(i);
+                            setSelectedSize('');
+                          }}
                           className={cn(
-                            'w-7 h-7 rounded-full border-2 shrink-0',
-                            selectedColorIndex === i ? 'border-white' : 'border-white/20'
-                          )}
-                          style={{ backgroundColor: color.hex }}
-                        />
-                        <span
-                          className={cn(
-                            'text-xs uppercase tracking-wider',
-                            selectedColorIndex === i ? 'text-primary font-bold' : 'text-white/60'
+                            'flex items-center gap-2 pl-1 pr-3 py-1.5 rounded-full border transition-all',
+                            selectedColorIndex === i
+                              ? 'border-primary bg-primary/10'
+                              : 'border-white/15 hover:border-white/40 bg-[#0A0A0A]/50'
                           )}
                         >
-                          {color.name}
-                        </span>
-                      </button>
-                    ))}
+                          <span
+                            className={cn(
+                              'w-9 h-9 rounded-full border-2 shrink-0 overflow-hidden bg-[#151515]',
+                              selectedColorIndex === i ? 'border-white' : 'border-white/20'
+                            )}
+                          >
+                            <img src={preview} alt="" className="w-full h-full object-cover" />
+                          </span>
+                          <span
+                            className={cn(
+                              'text-xs uppercase tracking-wider',
+                              selectedColorIndex === i ? 'text-primary font-bold' : 'text-white/60'
+                            )}
+                          >
+                            {color.name}
+                          </span>
+                        </button>
+                      );
+                    })}
                   </div>
+                  {sharedAngleGallery && (
+                    <p className="text-white/35 text-[10px] mt-3 uppercase tracking-wider leading-relaxed">
+                      Gallery shows product angles. Your selection ({selectedColor?.name}) is the color we ship.
+                    </p>
+                  )}
                 </div>
 
                 {/* Sizes */}
