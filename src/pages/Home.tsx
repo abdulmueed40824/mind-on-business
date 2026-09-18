@@ -25,7 +25,6 @@ const Home: React.FC = () => {
           <Hero />
           <About />
           <Collection />
-          <FeaturedProducts />
           <Ethos />
           <Lookbook />
           <Differentiators />
